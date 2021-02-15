@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.6em;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    box-shadow: 5px 0px 2px #000000;
+}
+.top-navbar{
+    width: 100%;
+    text-align: center;
+    padding: 15px 35px;
+}
+
+.top-navbar ul{
+    list-style: none;
+    color: #fff;
+    font-weight: 700;
+}
+.top-navbar ul li{
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    margin-left: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+    
+}
+
+.top-navbar ul li:hover{
+    background-color: rgba(120, 195, 232);
+    transition: .9s;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+
