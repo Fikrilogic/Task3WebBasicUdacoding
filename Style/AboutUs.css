@@ -35,7 +35,6 @@ header{
 .top-navbar ul li a{
     text-decoration: none;
     color: #fff;
-    width: 100%;
 }
 
 .top-navbar ul li a:hover{
@@ -45,10 +44,10 @@ header{
     font-weight: bold;
 }
 
-/*content style*/
+/*section style*/
 section{
     width: 100%;
-    height: 2800px;
+    height: 1200px;
 }
 .slider{
     overflow: hidden;
@@ -62,73 +61,46 @@ section{
     width: 100%;
     height: 600px;
 }
-.content{
+article{
     width: 100%;
     margin-top: 30px;
-    padding: 15px 30px;
 }
 
-article{
-    width: 70%;
-    float: left;
-}
-aside{
-    width: 30%;
-    float: right;    
-}
 .container{
+    padding: 15px 50px;
     width: 100%;
-    padding: 15px 30px;
+}
+
+.container h1{
+    text-align: center;
+    font-weight: 700;
+    font-size: 35px;
+    margin-bottom: 40px;
 }
 
 .article-img{
-    margin-bottom: 30px;
-    padding: 20px 15px;
+    float: right;
+    width: 50%;
+    text-align: center;
 }
 
 .article-img img{
-    width: 100%;
-    border: 1px solid rgba(0, 0, 0, 0.5);
-    border-radius: 5px;
+    width: 500px;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
 }
 
-.article-img h1{
-    font-size: 35px;
-    padding: 15px 30px;
-}
-
-.article-content{
-    width: 100%;
+.article-desc{
+    float: left;
+    width: 50%;
     text-align: justify;
-    padding: 0px 30px;
+}
+.article-desc h3{
+    font-weight: 700;
+    font-size: 25px;
+    margin-bottom: 30px;
+}
+.article-desc p{
+    margin-bottom: 30px;
+    font-size: 20px;
 }
 
-.article-content p{
-    margin-bottom: 20px;
-}
-
-.profile-img img{
-    width: 100px;
-    height:100px;
-}
-
-/*footer*/
-footer{
-    background-color: black;
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    color: #fff;
-    padding: 20px 0px;
-}
-
-.source-article{
-    width: 100%;
-    margin: 30px 0px;
-    padding: 30px 0px;
-}
-
-.source-article p{
-    font-weight: 600;
-    letter-spacing: 0.5em;
-}
