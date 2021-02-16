@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    line-height: 1.6em;
+}
+
+/*header style*/
+header{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: black;
+    border-bottom: 1px solid #fff;
+    z-index: 10;
+    
+}
+.top-navbar{
+    width: 100%;
+    text-align: center;
+    padding: 15px 35px;
+}
+
+.top-navbar ul{
+    list-style: none;
+    font-weight: 700;
+}
+.top-navbar ul li{
+    display: inline-block;
+    margin-left: 20px;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+
+.top-navbar ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.top-navbar ul li a:hover{
+    color: rgba(120, 195, 232);
+    transition: .9s;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+/*section style*/
+section{
+    width: 100%;
+    height: auto;
+}
+.slider{
+    overflow: hidden;
+}
+.slider figure{
+    width: 100%;
+    left: 0;
+    padding: 0px 15px;
+}
+.slider figure img{
+    width: 100%;
+    height: 600px;
+}
+article{
+    width: 100%;
+    height: 600px;
+    margin-top: 50px;
+} 
+.container{
+    width: 100%;
+    padding: 0px 40px;
+}
+
+.profile-img{
+    float: left;
+    width: 50%;
+    text-align: center;
+}
+.profile-img img{
+    width: 500px;
+    height: 600px;
+    box-shadow: 4px 4px 4px rgba(0,0,0,0.5);
+}
+
+.profile-desc{
+    float: right;
+    width: 50%;
+    text-align: justify;
+}
+
+.profile-desc h1{
+    font-size: 35px;
+    text-align: center;
+    font-weight: 700;
+    padding: 15px 30px;
+}
+
+#location{
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 30px;
+    font-weight: 700px;
+}
+
+.profile-desc p{
+    margin-bottom: 30px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
